@@ -11,6 +11,15 @@ The thing is different with the **stylesheet** since CSS is a precompiled langua
 3. First one is `ejsToCss` task (line `12`) that will injecting `primary` & `secondary` value inside preset file (see `/config/presets/_glabs.json` line `31` & `32` for example) into `/public/sass/base/_base.scss.ejs` line `3` & `4`. Then will rename it to `/public/sass/base/_base.scss`. This file will be imported into master style `/public/sass/style.scss`.
 4. Second is `scssToCss` task (line `22`) that will compile Sass file `/public/sass/style.scss` to CSS file `/public/stylesheets/style.css`. This CSS file will be the one that called into the HTML file.
 
+### Helpful Links
+
+- [Slide Presentation](https://docs.google.com/presentation/d/1P7xuwglQqoJV9z-BpsljppQBeiIrcU16okd2EoAf_J8/edit?usp=sharing)
+- [Sass Official Website](https://sass-lang.com/)
+- [Sass Official Documentation Website](http://sass-lang.com/documentation/file.SASS_REFERENCE.html)
+- [Sass Official Script Function Documentation](http://sass-lang.com/documentation/Sass/Script/Functions.html)
+- [8 Tips For Sass Best Practice from Site Point](https://www.sitepoint.com/8-tips-help-get-best-sass/)
+- [Tips For Sass Architecture from Site Point](https://www.sitepoint.com/architecture-sass-project/)
+
 ### Local Testing First Installation
 
 ```bash
