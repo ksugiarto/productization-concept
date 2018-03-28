@@ -1,0 +1,16 @@
+{
+  "restartable": "rs",
+  "ignore": [
+    ".git",
+    "node_modules/**/node_modules",
+    "public/components",
+    "public/tags/*.js",
+    "public/javascripts",
+    "public/views"
+  ],
+  "verbose": true,
+  "events": {
+    "start" : "gulp"
+  },
+  "ext": "js json tag"
+}

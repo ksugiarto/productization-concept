@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "glabs": "SITE_ENV=glabs NODE_ENV=development nodemon -w . ./bin/www",
+    "dnet": "SITE_ENV=dnet NODE_ENV=development nodemon -w . ./bin/www"
   },
   "dependencies": {
     "cookie-parser": "~1.4.3",
@@ -11,6 +12,14 @@
     "ejs": "~2.5.7",
     "express": "~4.16.0",
     "http-errors": "~1.6.2",
-    "morgan": "~1.9.0"
+    "morgan": "~1.9.0",
+    "request": "^2.85.0"
+  },
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-ejs": "^3.1.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.2.1"
   }
 }

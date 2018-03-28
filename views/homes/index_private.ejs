@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+
+    <script>
+      sessionStorage.clear();
+      sessionStorage.siteName = "<%= siteName %>";
+      sessionStorage.logo = "<%= logo %>";
+      sessionStorage.logoWhite = "<%= logoWhite %>";
+    </script>
+  </head>
+  <body>
+    <h1 class="title"></h1>
+    <img class="site-logo" src="">
+
+    <div class="desc">A Private Company</div>
+    <div class="content">
+      <span>Content:</span>
+      <%= content %>
+    </div>
+
+    <div class="more-content">
+      Something else
+    </div>
+  </body>
+
+  <script type="text/javascript" src="/javascripts/site_helpers.js"></script>
+</html>

@@ -1,8 +1,33 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
+/* BASE - Base Variable file along with starting point Mixins and Placeholders.
+================================================================================= */
+/* COLOR LIB
+=============== */
+/* COLOR LIB
+=============== */
+/* MIXINS
+==================== */
+/* PLACEHOLDERS
+==================== */
+.content, .more-content {
+  background: rgba(12, 81, 153, 0.8);
+  margin: 15px 0px 15px 0px; }
+  .content span, .more-content span {
+    color: #F8981D;
+    line-height: 1 !important;
+    font-size: 18px;
+    font-weight: 400; }
 
-a {
-  color: #00B7FF;
-}
+h1 {
+  background: #0C5199;
+  color: #F8981D; }
+
+.desc {
+  color: #F8981D;
+  line-height: 1.25 !important;
+  font-size: 20px; }
+
+.content {
+  font-size: 16px; }
+
+.more-content {
+  font-size: 14px; }

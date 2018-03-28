@@ -1,0 +1,10 @@
+/* COLOR LIB
+=============== */
+$base-color: #DDE9ED;
+$white-color: #FFFFFF;
+$black-color:rgba(0, 0, 0, 0.87);
+@import '_base.scss';
+
+// $primary-color-transparent: rgba(0, 36, 105, 0.6);
+$primary-color-transparent: transparentize($primary-color, 0.2);
+$gray-color-transparent: rgba(232, 232, 232, 0.8);

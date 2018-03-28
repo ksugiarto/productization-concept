@@ -1,0 +1,7 @@
+/* MIXINS
+==================== */
+@mixin desc-title($color, $lh, $fs) {
+  color: $color;
+  line-height: $lh !important;
+  font-size: $fs + px;
+};

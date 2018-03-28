@@ -1,0 +1,10 @@
+/* PLACEHOLDERS
+==================== */
+%content {
+  background: $primary-color-transparent;
+  margin: 15px 0px 15px 0px;
+  span { 
+    @include desc-title($secondary-color, 1, 18);
+    font-weight: 400;
+  }
+};

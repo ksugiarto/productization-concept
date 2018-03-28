@@ -1,0 +1,34 @@
+{
+  "_comment": "Dnet Spin Off Env Sets",
+  "name": "D~Net",
+  "version": "0.0.1",
+  "favicon": "http://garasilabs.com/images/favicon2.ico",
+  "logo": "http://dnetprovider.id/images/logo-3bfa746e.png",
+  "logoWhite": "http://dnetprovider.id/images/logo-3bfa746e.png",
+  "aboutUrl": "http://dnetprovider.id/id/about.html",
+  "isPrivate": false,
+  "env": {
+    "production": {
+      "hostUrl": "http://api.garasilabs.org",
+      "authz_token" : "06d72efaaa732bc6c3fbe33e",
+      "payment": {
+        "isFullAmount": true
+      }
+    },
+    "development": {
+      "hostUrl": "http://api.garasilabs.org",
+      "authz_token" : "06d72efaaa732bc6c3fbe33e",
+      "payment": {
+        "isFullAmount": false
+      }
+    }
+  },
+  "api": {
+    "getProjects": "/gpo",
+    "getCustomers": "/gco"
+  },
+  "styleSets": {
+    "primary": "#F6F6F6",
+    "secondary": "#03ACEC"
+  }
+}

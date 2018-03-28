@@ -1,0 +1,24 @@
+/* BASE - Base Variable file along with starting point Mixins and Placeholders.
+================================================================================= */
+@import 'base/_variables.scss';
+@import 'base/_mixins.scss';
+@import 'base/_placeholders.scss';
+
+h1 {
+  background: $primary-color;
+  color: $secondary-color;
+}
+
+.desc {
+  @include desc-title($secondary-color, 1.25, 20);
+}
+
+.content {
+  @extend %content;
+  font-size: 16px;
+}
+
+.more-content {
+  @extend %content;
+  font-size: 14px;
+}
